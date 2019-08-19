@@ -1,14 +1,21 @@
+#!/usr/bin/env python3
 import psycopg2
 
 
 # Conect to DB
 def init_query(query):
-    db = psycopg2.connect("dbname=news")
-    c = db.cursor()
-    c.execute(query)
-    query = c.fetchall()
-    db.close()
-    return query
+    try:
+        db = psycopg2.connect("dbname=news")
+        c = db.cursor()
+        c.execute(query)
+        query = c.fetchall()
+        db.close()
+        return query
+    except psycopg2.Error as e:
+        print("Unable to connect to the database")
+        print(e.pgerror)
+        print(e.diag.message_detail)
+        sys.exit(1)
 
 
 # Query to question 1
