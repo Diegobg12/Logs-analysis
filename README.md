@@ -4,7 +4,7 @@ Project 1 from Udacity's Full-Stack web program
 
 # Project: Logs Analysis
 
-This project give the answer to these following questions:
+This project gives the answer to these following questions:
 
 What are the most popular three articles of all time?
 Who are the most popular article authors of all time?
@@ -32,7 +32,7 @@ Take a look in [Udacity's FAQ](https://classroom.udacity.com/nanodegrees/nd004/p
 ## Ready to RUN!
 run ```python LogsAnalysis.py```
 
-## Output!
+## Output
 
 1. What are the most popular three articles of all time?
 
