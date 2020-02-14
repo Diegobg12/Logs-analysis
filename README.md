@@ -1,6 +1,3 @@
-# Project: Logs Analysis
-
-Project 1 from Udacity's Full-Stack web program
 
 # Project: Logs Analysis
 
