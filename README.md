@@ -35,8 +35,8 @@ run ```python LogsAnalysis.py```
 
 ## Sources
 
-+ (Python)[https://www.python.org/]
-+ (PostgreSQL)[https://www.postgresql.org/]
-+ (psycopg2)[https://pypi.org/project/psycopg2/]
++ [Python](https://www.python.org/)
++ [PostgreSQL](https://www.postgresql.org/)
++ [psycopg2](https://pypi.org/project/psycopg2/)
 
 
